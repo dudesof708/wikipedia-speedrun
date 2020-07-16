@@ -48,19 +48,20 @@ def pathfind():
 def menu():
     clear()
     print("Main Menu\n---------\n1 > Start Game\n2 > Generate Random Endpoints\n3 > Pathfind\n4 > Quit")
-    incom = input()
+    incom = input("input> ")
     if incom.isnumeric():
         intcom = int(incom)
         if intcom == 1:
             game()
         elif intcom == 2:
             begin, end = generateEndpoints()
-            print("You are going from", begin, "to", end)
+            clear()
+            print("START LOCATION:", begin, "\n  END LOCATION:", end)
         elif intcom == 3:
             pathfind()
         elif intcom == 4:
             exit(0)
-    input("Press enter to continue.")
+    input("\nPress enter to continue.")
     menu()
 
 def main():
