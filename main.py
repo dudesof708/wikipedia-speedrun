@@ -16,7 +16,7 @@ def gameRound(cRound, playerList, playerScores, playerTimes):
     clear()
     print("Current round:", cRound)
     begin, end = generateEndpoints()
-    print("BEGIN AT:", begin, "\n  END AT:", end, '\n')
+    print("BEGIN AT:", begin, "\n  END AT:", end, '\nENTER PLAYER ORDER >')
     return playerScores, playerTimes
 
 def game():
