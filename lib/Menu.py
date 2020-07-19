@@ -10,4 +10,7 @@ class Menu:
     def createMenu(self):
         self.printMenu()
         selection = input('\nSelect Option >> ')
-        return int(selection) - 1
+        if selection.isnumeric():
+            return int(selection) - 1
+        else:
+            return -1

@@ -1,6 +1,11 @@
-#!/bin/python3
+"""
+wikipedia-speedrun
 
-# I'll make this act more like a program later, quick programming
+A Wikipedia speedrunner for noobs. Uses various methods for people to
+play Wikipedia speedrunning with each other.
+
+(C) 2020 Gideon Tong and Dudes of 708
+"""
 
 import os
 import wikipedia
