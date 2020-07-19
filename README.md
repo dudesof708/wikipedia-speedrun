@@ -1,6 +1,6 @@
 # Wikipedia Speedrunner
 
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![HitCount](http://hits.dwyl.com/dudesof708/wikipedia-speedrunner.svg) ![Latest Release](https://img.shields.io/github/v/release/dudesof708/wikipedia-speedrunner) ![MIT License](https://img.shields.io/github/license/dudesof708/wikipedia-speedrunner)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com) ![HitCount](http://hits.dwyl.com/dudesof708/wikipedia-speedrun.svg) ![Latest Release](https://img.shields.io/github/v/release/dudesof708/wikipedia-speedrun) ![MIT License](https://img.shields.io/github/license/dudesof708/wikipedia-speedrun)
 
 Play Wikipedia Speedruns with your friends!
 
