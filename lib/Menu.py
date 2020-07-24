@@ -25,3 +25,4 @@ class Menu:
     def createMenu(self, waitValidated = False):
         self.printMenu()
         selection = self.getMenuInput(waitValidated)
+        return selection

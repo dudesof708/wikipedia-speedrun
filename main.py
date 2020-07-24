@@ -9,6 +9,7 @@ play Wikipedia speedrunning with each other.
 
 import os
 import wikipedia
+from lib.Menu import Menu
 
 def clear():
     os.system('cls' if os.name == 'nt' else 'clear')
@@ -50,26 +51,23 @@ def generateEndpoints():
 def pathfind():
     print("Feature coming soon.")
 
-def menu():
-    clear()
-    print("Main Menu\n---------\n1 > Start Game\n2 > Generate Random Endpoints\n3 > Pathfind\n4 > Quit")
-    incom = input("input> ")
-    if incom.isnumeric():
-        intcom = int(incom)
-        if intcom == 1:
-            game()
-        elif intcom == 2:
-            begin, end = generateEndpoints()
-            clear()
-            print("START LOCATION:", begin, "\n  END LOCATION:", end)
-        elif intcom == 3:
-            pathfind()
-        elif intcom == 4:
-            exit(0)
+def menu(intcom):
+    if intcom == 1:
+        game()
+    elif intcom == 2:
+        begin, end = generateEndpoints()
+        clear()
+        print("START LOCATION:", begin, "\n  END LOCATION:", end)
+    elif intcom == 3:
+        pathfind()
+    elif intcom == 4:
+        exit(0)
     input("\nPress enter to continue.")
     menu()
 
 def main():
-    menu()
+    myMenu = Menu(['Start Game', 'Generate Random Endpoints', 'Pathfind', 'Quit'])
+    selection = myMenu.createMenu(waitValidated=True)
+    menu(int(selection))
 
 main()
