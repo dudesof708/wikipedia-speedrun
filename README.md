@@ -22,8 +22,8 @@ Play Wikipedia Speedruns with your friends!
 
 ### Feedback
 
-If you have any feedback, feel free to take this opportunity to become a contributor and open an [issue](https://github.com/dudesof708/wikipedia-speedrun/issues). Additionally, you can email the maintainer [Gideon Tong](https://gideontong.com) at [gideon@gideontong.com](mailto:gideon@gideontong.com).
+If you have any feedback, feel free to take this opportunity to become a contributor and open an [issue](https://github.com/dudesof708/wikipedia-speedrun/issues). Additionally, you can email the maintainer [Gideon Tong](https://gideontong.com) at [gideon@gideontong.com](mailto:gideon@dudesof708.com).
 
 ## Licensing
 
-**Wikipedia Speedrunner** is licensed under the MIT License and is copyrighted by &copy; Gideon Tong and Dudes of 708 2020.
+**Wikipedia Speedrunner** is licensed under the MIT License and is copyrighted by &copy; Gideon Tong and [Dudes of 708](https://dudesof708.com) 2020.
